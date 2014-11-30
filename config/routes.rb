@@ -55,5 +55,7 @@ Rails.application.routes.draw do
   #   end
 
   #have all the root of my site routed with "root"
-  root 'application#hello'
+  #root 'application#hello'
+  root "application#hola"
+  #root "application#goodbye"
 end
